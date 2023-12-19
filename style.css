@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(./375px/Backgorund_Blur.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.heading{
+    padding-top: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.heading_text{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.heading_text > h1{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    letter-spacing: -0.455px;
+}
+.heading_text > p{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.mobile_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 166px;
+    background-image: url(./375px/Pattern.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 12px;
+    background-color: #191826;
+}
+.mobile_container > .mobile_375px{
+    border-radius: 25px;
+    position: relative;
+    top:  -98px;
+}
+.mobile_orange_container{
+    width: 100%;
+    padding: 48px 0 48px 0;
+    border-radius: 12px;
+    background: #FA7453;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -500px;
+}
+.orange_text > h1{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+}
+.orange_text > p{
+    max-width: 302px;
+    margin-top: 12px;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+.orange_text > .orange_price{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.orange_text > div > h1{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 80% */
+}
+.orange_text > div > p{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.2px;
+}
+.orange_buttons{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.black_button{
+    width: 296px;
+    height: 61px;
+    border: none;
+    border-radius: 12px;
+    background: #191826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.black_button > p{
+    color: #FCFAF9;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+}
+.white_button{
+    width: 296px;
+    height: 61px;
+    border: none;
+    border-radius: 12px;
+    background: #FCFAF9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.white_button > p{
+    color: #191826;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+}
+.footer_container{
+    margin-top: 64px;
+    padding: 0 24px 50px 24px;
+    position: relative;
+    bottom: -500px;
+}
+.footer_text{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.footer_container > .footer_text > p{
+    max-width: 327px;
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.footer_text > p > a{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+}
+.apps_icon{
+    height: 20px;
+    width: 100px;
+}
